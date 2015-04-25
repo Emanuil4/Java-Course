@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class areaRectangle {
+public static void main(String[] args) {
+	 Scanner input = new Scanner(System.in, "UTF-8");
+	System.out.println("Please enter a width :"); //Numbers are entering with ,  
+	double widh = input.nextDouble();
+	System.out.print("Please enter a length:"); 
+	double length=input.nextDouble();
+	double sum= widh*length;
+	System.out.print("Sum is:");
+	System.out.println(sum);
+	
+
+}
+}

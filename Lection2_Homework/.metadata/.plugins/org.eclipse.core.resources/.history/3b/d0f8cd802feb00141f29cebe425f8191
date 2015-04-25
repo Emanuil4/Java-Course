@@ -1,0 +1,16 @@
+
+public class circleRadius {
+	public static void main(String[] args) {
+		int r=5;
+		float area;
+		float perimetrie;
+		float pi=3.14159f;
+		area=pi*r*r;
+		perimetrie=2*pi*r;
+		System.out.print("Area is:");
+		System.out.println(area);
+		System.out.print("perimetrie is:");
+		System.out.print(perimetrie);
+		
+	}
+}

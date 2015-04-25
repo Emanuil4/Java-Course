@@ -1,0 +1,8 @@
+import java.util.Scanner;
+public class areaRectangle {
+public static void main(String[] args) {
+	 Scanner input = new Scanner(System.in, "UTF-8");
+	System.out.println("Please enter a width :");
+	double widh = input.nextDouble();
+}
+}

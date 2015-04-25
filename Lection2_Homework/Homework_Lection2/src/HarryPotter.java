@@ -1,0 +1,10 @@
+
+public class HarryPotter {
+
+	public static void main(String[] args) {
+		String ch ="i will read \"Harry Potter\" book colection.";
+		System.out.print(ch);
+
+	}
+
+}

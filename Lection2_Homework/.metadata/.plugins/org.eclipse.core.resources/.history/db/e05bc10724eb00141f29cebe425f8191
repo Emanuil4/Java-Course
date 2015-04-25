@@ -1,0 +1,18 @@
+
+public class company {
+
+	public static void main(String[] args) {
+	String firstName= "Emanuil";
+	String lastName= "Georgiev";
+	byte years=18;
+	char sex = 'm';
+	char sex1 = 'w';
+	long egn=9512225420L;
+	float phoneNumber=0883322765f;
+	System.out.print("Hello " + firstName);
+	
+	
+
+	}
+
+}

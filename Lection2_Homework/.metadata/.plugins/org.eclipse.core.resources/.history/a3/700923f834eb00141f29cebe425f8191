@@ -1,0 +1,23 @@
+
+public class boolean_ {
+
+	public static void main(String[] args) {
+	       int a = 7;
+	      int  b=7;
+	      int c=5;
+	       int d;
+	       int f;
+	       d = a % b;
+	       f= a % c;
+	        System.out.print("a % b = ");
+	        System.out.println(d);
+	        System.out.print("a%c= ");
+	        System.out.print(f);
+	       
+
+	    }
+	
+
+	}
+
+

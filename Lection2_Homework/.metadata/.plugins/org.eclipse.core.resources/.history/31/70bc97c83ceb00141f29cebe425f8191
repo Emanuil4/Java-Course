@@ -1,0 +1,21 @@
+
+public class boolean_ {
+
+	public static void main(String[] args) {
+	       int a = 7;
+	      int  b=7;
+	      int c=5;
+	      boolean d=a%b==0;
+	        System.out.print("a % b = ");
+	        System.out.println(d);
+	        boolean f=a%c==0;
+	        System.out.print("a%c= ");
+	        System.out.print(f);
+	       
+
+	    }
+	
+
+	}
+
+

@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class evenOrOdd {
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in, "UTF-8");
+		System.out.print("Enter a number");
+		int a= input.nextInt();
+		   boolean aIsEvenOrOdd = (a/2==0) || (a/2!=0);
+	        System.out.print(" Result is ");
+	        System.out.println(aIsEvenOrOdd);
+		
+	}
+}
