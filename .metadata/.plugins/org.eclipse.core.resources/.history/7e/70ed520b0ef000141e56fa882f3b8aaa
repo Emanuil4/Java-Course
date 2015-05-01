@@ -1,0 +1,13 @@
+package homeworkLection3;
+import java.util.Scanner;
+public class cards {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+		System.out.print("Please enter a card:");
+		String a= input.nextLine();
+		if(a=="a" || a=="A"){
+			System.out.print("Valid card!");
+		}
+}
+	}

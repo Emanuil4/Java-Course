@@ -1,0 +1,32 @@
+package homeworkLection3;
+import java.util.Scanner;
+import java.lang.Math ;
+public class equation {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+        System.out.print("Enter a=");
+        int a = input.nextInt();
+        System.out.print("Enter b=");
+        int b = input.nextInt();
+        System.out.print("Enter c=");
+        int c = input.nextInt();
+       double D=b*b-4*a*c ;
+        System.out.println(D);
+        if(D > 0){
+           double x1 =(-b + Math.sqrt(D)) /2;
+           double x2 = (-b - Math.sqrt(D)) /2;
+           System.out.println(x1);
+           System.out.println(x2);
+        }if (D==0){
+             double x3;
+             double x4;
+             x3 =x4 = -b/2;
+             System.out.println("x3=x4=");
+             System.out.println(x4);
+        }if (D<0){
+            System.out.println("No decision!");
+        }
+	}
+
+}

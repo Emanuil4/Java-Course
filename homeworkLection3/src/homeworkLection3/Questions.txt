@@ -1,0 +1,8 @@
+Как да проверя дали 10 е валидна карта? 
+Пробвах и a да е string, но тогава другите карти стават invalid.
+
+String a = input.nextLine();
+if (a=="10"){
+System.out.print("Valid card!"):
+} 
+този запис не става

@@ -1,0 +1,20 @@
+package homeworkLection3;
+import java.util.Scanner;
+public class theBiggestNumberFrom5 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+		System.out.print("Enter first number:");
+		float a = input.nextFloat();
+		System.out.print("Enter second number:");
+		float b = input.nextFloat();
+		System.out.print("Enter third number:");
+		float c = input.nextFloat();
+		System.out.print("Enter fourth number:");
+		float d = input.nextFloat();
+		System.out.print("Enter fifth number:");
+		float e = input.nextFloat();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package homeworkLection3;
+import java.util.Scanner;
+public class numberOnEnglish {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+		System.out.print("Please enter a number:");
+       String a = input.nextLine();
+       if (a.length()==1){
+    	   System.out.print(a);
+       }if(a.length()==2){
+    	   System.out.print(a);
+       }
+	}
+
+}

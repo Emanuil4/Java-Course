@@ -1,0 +1,11 @@
+package homeworkLection3;
+import java.util.Scanner;
+public class theBiggestNumber {
+	Scanner input = new Scanner(System.in,"UTF-8");
+	public static void main(String[] args) {
+		System.out.print("Enter first number:");
+		int a = input.nextInt();
+
+	}
+
+}

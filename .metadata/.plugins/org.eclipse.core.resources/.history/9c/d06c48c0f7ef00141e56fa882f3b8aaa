@@ -1,0 +1,26 @@
+package homeworkLection3;
+import java.util.Scanner;
+public class theBiggestNumber {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+        System.out.print("Enter first number:");
+        int a= input.nextInt();
+        System.out.print("Enter second number:");
+        int b= input.nextInt();
+        System.out.print("Enter third number:");
+        int c= input.nextInt();
+        if ( (a/b)>1 && (a/c)>1 ){
+        	System.out.print("The biggest number is a ");
+        	System.out.print(a);
+        } if ( (b/a)>1 && (b/c)>1 ){
+        	System.out.print("The biggest number is ");
+        	System.out.print(b);
+        } if ( (c/a)>1 && (c/b)>1 ){
+        	System.out.print("The biggest number is ");
+        	System.out.print(c);
+        }
+        
+	}
+
+}
