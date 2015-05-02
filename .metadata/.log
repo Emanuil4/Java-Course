@@ -1,4 +1,4 @@
-!SESSION 2015-05-01 11:25:38.596 -----------------------------------------------
+!SESSION 2015-05-02 09:50:42.825 -----------------------------------------------
 eclipse.buildId=4.4.2.M20150204-1700
 java.version=1.8.0_45
 java.vendor=Oracle Corporation
@@ -6,7 +6,7 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
-!ENTRY org.eclipse.egit.ui 2 0 2015-05-01 11:25:48.044
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-02 09:50:55.014
 !MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
 Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
 The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
@@ -14,198 +14,53 @@ this system level configuration. The Git installation location can be configured
 Team > Git > Configuration preference page's 'System Settings' tab.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.egit.ui 2 0 2015-05-01 11:25:48.044
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-02 09:50:55.028
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Emi'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-05-02 10:02:14.124 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product C:\Users\Emi\Desktop\Homework\src\cards.java
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product C:\Users\Emi\Desktop\Homework\src\cards.java
 
-!ENTRY org.eclipse.core.resources 4 2 2015-05-01 11:27:14.665
-!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
-!STACK 0
-java.util.ConcurrentModificationException
-	at java.util.HashMap$HashIterator.nextNode(Unknown Source)
-	at java.util.HashMap$KeyIterator.next(Unknown Source)
-	at org.eclipse.jface.text.source.OverviewRuler.isCovered(OverviewRuler.java:1238)
-	at org.eclipse.jface.text.source.OverviewRuler.contains(OverviewRuler.java:1217)
-	at org.eclipse.jface.text.source.OverviewRuler.skip(OverviewRuler.java:1186)
-	at org.eclipse.jface.text.source.OverviewRuler.access$5(OverviewRuler.java:1185)
-	at org.eclipse.jface.text.source.OverviewRuler$InternalListener.modelChanged(OverviewRuler.java:112)
-	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:613)
-	at org.eclipse.jface.text.source.AnnotationModel$InternalModelListener.modelChanged(AnnotationModel.java:262)
-	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:613)
-	at org.eclipse.jface.text.source.AnnotationModel.fireModelChanged(AnnotationModel.java:579)
-	at org.eclipse.ui.texteditor.ResourceMarkerAnnotationModel.update(ResourceMarkerAnnotationModel.java:114)
-	at org.eclipse.ui.texteditor.ResourceMarkerAnnotationModel$ResourceChangeListener.resourceChanged(ResourceMarkerAnnotationModel.java:56)
-	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
-	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
-	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:378)
-	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1498)
-	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:156)
-	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-02 10:02:26.489
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 12:35:34.417
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 12:35:34.417
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-02 10:02:26.489
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Emi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-05-02 10:03:30.847 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product C:\Users\Emi\Desktop\Homework\src\cards.java
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product C:\Users\Emi\Desktop\Homework\src\cards.java
 
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 15:41:47.878
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 15:41:47.878
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-02 10:03:42.918
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 15:41:48.081
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 15:41:48.081
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 15:41:48.300
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 15:41:48.300
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 15:42:29.479
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 15:42:29.479
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 15:42:29.870
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 15:42:29.870
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 15:42:29.979
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 15:42:29.979
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 15:44:17.699
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 15:44:17.699
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
-
-!ENTRY org.eclipse.jdt.ui 4 10001 2015-05-01 15:44:17.855
-!MESSAGE Internal Error
-!STACK 1
-Java Model Exception: Java Model Status [C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path]
-	at org.eclipse.jdt.internal.core.PackageFragmentRoot.getRawClasspathEntry(PackageFragmentRoot.java:562)
-	at org.eclipse.jdt.internal.core.JavaElement.getJavadocBaseLocation(JavaElement.java:728)
-	at org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1011)
-	at org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:717)
-	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:500)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.extractJavadoc(ProposalInfo.java:93)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.computeInfo(ProposalInfo.java:77)
-	at org.eclipse.jdt.internal.ui.text.java.ProposalInfo.getInfo(ProposalInfo.java:62)
-	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getAdditionalProposalInfo(AbstractJavaCompletionProposal.java:575)
-	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
-	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
-!SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-05-01 15:44:17.855
-!MESSAGE C:\Program Files\Java\jre1.8.0_45\lib\rt.jar is not on its project's build path
+!ENTRY org.eclipse.egit.ui 2 0 2015-05-02 10:03:42.950
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Emi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
