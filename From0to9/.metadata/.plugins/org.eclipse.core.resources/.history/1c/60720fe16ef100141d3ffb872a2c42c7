@@ -1,0 +1,13 @@
+package from0to999;
+import java.util.Scanner;
+public class gggg {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+		System.out.print("Please enter a number:");
+		int a= input.nextInt();
+        int c = a/10;
+        System.out.print(c);
+	}
+
+}
