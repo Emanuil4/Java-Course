@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class nK {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+        System.out.print("Please enter first number:");
+        int N=input.nextInt();
+        System.out.print("Please enter second number:");
+        int K=input.nextInt();
+        long factorial = 1;
+		for (int i = 1; i <= N; i++) {
+		    factorial *= i;
+		    System.out.println(N + "! = " + factorial);
+		}
+		
+		System.out.println(N + "! = " + factorial);
+		long factorial1 = 1;
+		for (int i = 1; i <= K; i++) {
+		    factorial1 *= i;
+		    System.out.println(K + "! = " + factorial1);
+		} 
+		if(N<K){
+			System.out.println("Error!");
+		}
+		else if (1>N){
+			System.out.println("Error!");
+		}
+		
+		System.out.print("N!/K1!= " + factorial/factorial1);
+	}
+
+}

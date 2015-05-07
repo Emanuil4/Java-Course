@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class numbers5 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+		int a = 0;
+		while(a==5){
+			System.out.print("Please enter number");
+			int b = input.nextInt();
+			a++;
+		}
+	}
+
+}

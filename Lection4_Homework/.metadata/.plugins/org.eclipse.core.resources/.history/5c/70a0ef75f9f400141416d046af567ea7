@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class numbers5 {
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in,"UTF-8");
+		System.out.print("How many numbers will you enter?:");
+		int d = input.nextInt();
+		for(int i = 0; i<d;i++ ){
+			System.out.print("Please enter a number:");
+			int number=input.nextInt();
+			System.out.print(number);
+		}
+	}
+
+}
