@@ -1,0 +1,20 @@
+public class from1to30 {
+	public static void main(String[] args) {
+		int row = 0;
+		int col = 0;
+	 int[][] mas1= new int[5][6];
+	 for (int i = 30; i > i; i--){
+		 mas1[row][col] = i;
+		 i--;
+	 }
+	 for(row= 0; row < mas1.length; row++){
+		 for(col = 0; col < mas1[row].length ; col++){
+			 
+			 System.out.print(mas1[row][col] + " ");
+			}
+	 
+		 System.out.println();
+	 }
+	}
+		} 
+	
