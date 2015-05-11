@@ -1,0 +1,19 @@
+package from1to30;
+public class from1to30 {
+	public static void main(String[] args) {
+		int row;
+		int col;
+	 int[][] mas1= new int[5][6];
+	 int b = 30;
+	 for(row= 0; row < 5; row++){
+		 for(col = 0; col < 6 ; col++){
+			
+				 mas1[row][col] = b;
+				 b--;
+				 System.out.print(mas1[row][col] + " ");
+			 }
+			
+			 System.out.println();
+			}
+	 }
+	}
