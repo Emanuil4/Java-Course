@@ -9,7 +9,7 @@ public class nK {
         int K=input.nextInt();
         long factorial = 1;
 		for (int i = 1; i <= N; i++) {
-		    factorial *= i;
+		    factorial = factorial *  i;
 		} 
 		   System.out.println(N + "! = " + factorial);
 		long factorial1 = 1;
