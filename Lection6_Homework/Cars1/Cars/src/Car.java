@@ -1,6 +1,6 @@
 
 public class Car {
-int price;
+	int price;
 public Car(){
 	price = 0;
 }
