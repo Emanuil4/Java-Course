@@ -1,4 +1,4 @@
-
+package kdasjkdja;
 public class SentenceNotCompletedException extends Exception{
 	public SentenceNotCompletedException(){
 		super();
